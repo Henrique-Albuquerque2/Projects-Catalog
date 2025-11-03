@@ -9,7 +9,7 @@ const projectsData = [
     description:
       "End-to-end analytics dashboard built for a company using an internal ERP system. The solution integrates FastAPI, Redis, and PostgreSQL for efficient data pipelines, caching, and analysis.",
     technologies: ["FastAPI", "React", "PostgreSQL", "Redis", "ETL", "Vercel"],
-    image: "../../src/assets/aco.png",
+    image: "/assets/aco.png",
     youtubeUrl: "https://youtu.be/VZgLSuxtFvQ",
   },
   {
@@ -17,7 +17,7 @@ const projectsData = [
     description:
       "Rebuilt the company's institutional website from scratch with modern architecture and responsive design. Integrated with RD Station CRM, improving performance and conversion rate by 4.3%.",
     technologies: ["React", "TypeScript", "FastAPI", "Vite", "Tailwind CSS", "RD Station"],
-    image: "../../src/assets/consulting.png",
+    image: "/assets/consulting.png",
     liveUrl: "https://www.insperjunior.com/",
   },
   {
@@ -25,7 +25,7 @@ const projectsData = [
     description:
       "Embedded system developed for Raspberry Pi Pico using FreeRTOS. Reads joystick and IMU data (MPU6050) to emulate mouse movements and actions in PC games through UART communication.",
     technologies: ["C", "FreeRTOS", "MPU6050", "UART", "Raspberry Pi Pico"],
-    image: "../../src/assets/freertos.png",
+    image: "/assets/freertos.png",
     githubUrl: "https://github.com/Henrique-Albuquerque2/25a-emb-aps-2-gh?tab=readme-ov-file",
     youtubeUrl: "https://youtu.be/sFyntL15UdM"
   },
@@ -42,7 +42,7 @@ const projectsData = [
     "Voice Interface",
     "Accessibility"
   ],
-  image: "../../src/assets/beacon.png", // adicione o banner do Beacon em /public/images
+  image: "/assets/beacon.png", // adicione o banner do Beacon em /public/images
   githubUrl: "https://github.com/InsperAI/Hackathon-DevsImpacto",
   youtubeUrl: "https://youtu.be/0nn5LYcQLlg",
   },
@@ -59,7 +59,7 @@ const projectsData = [
       "HTML/CSS",
       "Ngrok"
     ],
-    image: "../../src/assets/torcedor.png", // coloque um banner seu em /public/images
+    image: "/assets/torcedor.png", // coloque um banner seu em /public/images
     youtubeUrl: "https://www.youtube.com/shorts/jWKDpox6CZs",
     githubUrl: "https://github.com/Henrique-Albuquerque2/torcedorRoxo" // adicione quando quiser
   },
@@ -68,7 +68,7 @@ const projectsData = [
     description:
       "2D game built with Pygame, simulating the logic and mechanics of Crossy Road. Includes sprite animation, collision detection, and increasing difficulty.",
     technologies: ["Python", "Pygame", "Game Design"],
-    image: "../../src/assets/pygame.png",
+    image: "/assets/pygame.png",
     githubUrl: "https://github.com/Henrique-Albuquerque2/DesSoft-2023.1-Pygame",
     youtubeUrl: "https://youtu.be/MfjJGuUqavU",
   },
@@ -77,7 +77,7 @@ const projectsData = [
     description:
       "Web app for personal task organization featuring CRUD operations and local database integration. Designed for simplicity and usability.",
     technologies: ["Python", "FastAPI", "React", "SQLite", "Tailwind CSS"],
-    image: "../../src/assets/getit.png",
+    image: "/assets/getit.png",
     youtubeUrl: "https://youtu.be/fiOd3oh3OOk",
   },
 ];
